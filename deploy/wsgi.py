@@ -5,8 +5,8 @@ from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager, Shell
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
+import importlib
+importlib.reload(sys)
 
 
 config_file = os.path.join(
@@ -46,3 +46,4 @@ if __name__ == '__main__':
         Department.insert_departments()
 
     manager.run()
+    
