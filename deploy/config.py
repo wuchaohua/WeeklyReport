@@ -41,5 +41,5 @@ DEFAULT_CONTENT = "<p><strong>1、上周计划完成情况：</strong></p><ol><l
                   "<p>&nbsp;<strong id=\"next_week\">5、下周计划：</strong></p><ol><li></li></ol>"
 
 
-#SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@db/wr_prd'
-SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(base_dir, 'wr_prd.sqlite')
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@db/wr_prd'
+#SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(base_dir, 'wr_prd.sqlite')
